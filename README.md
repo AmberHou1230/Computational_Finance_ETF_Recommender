@@ -18,7 +18,6 @@ You got a job at Charles Schwab!
   * RTH
 * In particular for QQQ, what would your recommendation be? Are investors rational in their behavior, or are there limits to rationality?
 
-
 Additional Notes
 * After that, we started web scraping. We used MongoDB to record our data
  * We got 14 ETF holdings (including their expense ratios) from Investco, 50 from iShares, 124 from StockAnalysis.com
