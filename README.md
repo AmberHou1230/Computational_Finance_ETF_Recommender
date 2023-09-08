@@ -1,4 +1,4 @@
-# Quantitative_Finance
+# ETF Recommender 
 -------------------
 You got a job at Charles Schwab!
 
@@ -19,4 +19,9 @@ You got a job at Charles Schwab!
 * In particular for QQQ, what would your recommendation be? Are investors rational in their behavior, or are there limits to rationality?
 
 
+Additional Notes
+* After that, we started web scraping. We used MongoDB to record our data
+ * We got 14 ETF holdings (including their expense ratios) from Investco, 50 from iShares, 124 from StockAnalysis.com
 
+* After loading everything into MongoDB, we wrote functions to calculate the cosine similarities between the ETFs
+ * The advantage of using cosine similarity is that it accounts for differences in the market value of each holding. If one ETF is investing heavily in one stock and not so heavily in the other, we can use that information in our comparison. 
