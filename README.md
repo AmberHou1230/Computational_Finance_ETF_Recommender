@@ -19,19 +19,4 @@ You got a job at Charles Schwab!
 * In particular for QQQ, what would your recommendation be? Are investors rational in their behavior, or are there limits to rationality?
 
 
-Determining the universe of ETFs
--------------------
 
-
-
-
-Data Cleaning
--------------------
-- Importing Libraries 
-```Python
-import pandas as pd
-import numpy as np
-import plotly.express as px
-import matplotlib.pyplot as plt 
-print('modules are imported')
-```
